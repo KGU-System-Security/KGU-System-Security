@@ -1,0 +1,260 @@
+/*************************************************
+* 공용 컨텐츠
+**************************************************/
+body.type-06 a.linkPrivacy {
+	color:#f25f21
+}
+
+/*************************************************
+* 서브 컨텐츠
+**************************************************/
+body.type-06 #content header h1 {
+	color:#575757;
+}
+body.type-06 section h2:before {
+	border-color:#333;
+}
+body.type-06 section h3.order:before {
+	color:#ff7800;	
+}
+body.type-06 .contentList>div.levelSystem.pageWizard h3,
+body.type-06 section h3 {
+	color:#ff6e17;
+}
+body.type-06 p.subtitle {
+	color:#fc7e02
+}
+body.type-06 section h3.order {
+	color:#282828;
+}
+body.type-06 section h3.h3 {
+	color:#141414;
+}
+body.type-06 section hr.basic {
+	border-color:#f79731;
+}
+body.type-06 ul.process>li {
+	background:url(images/type-06/imgProcess.png) no-repeat left top;
+}
+body.type-06 ul.process>li+li:before {
+	background:url(images/type-06/imgProcess.png) no-repeat right top;
+}
+body.type-06 ul.process>li.process-02 {background-position:-134px top}
+body.type-06 ul.process>li.process-03 {background-position:-268px top}
+body.type-06 ul.process>li.process-04 {background-position:-402px top}
+body.type-06 ul.process>li.process-05 {background-position:-536px top}
+body.type-06 ul.process>li.process-06 {background-position:-670px top}
+
+body.type-06 div.tab {
+	border-color:#565656;
+}
+body.type-06 div.tab a.active,
+body.type-06 div.tab button.active {
+	position:relative;
+	top:1px;
+	background:#fff;
+	border-top-width:5px;
+	border-color:#434343;
+	color:#222;
+}
+
+body.type-06 div.verticalTab ul.depth1 > li > button {
+	background-image:url(images/type-06/bgVerticalTab.png);
+}
+body.type-06 div.verticalTab ul.depth1 > li:hover > button.active {
+	color:#fff;
+}
+body.type-06 div.verticalTab ul.depth1 > li:hover > button,
+body.type-06 div.verticalTab ul.depth2 > li:hover > button,
+body.type-06 div.verticalTab ul.depth2 > li > button.active {
+	color:#fd7f32;	
+}
+
+body.type-06 .paging li > a:hover,
+body.type-06 section#content button.btn.btn-paging:hover {
+	background:#ff7030;
+	border-color:#ff7030;
+	color:#fff;
+}
+body.type-06 section#content button.btn.btn-paging {
+	background:#f4f6f6;
+	border-color:#e6e6e6;
+}
+
+body.type-06 span.view-bbs-dday,
+body.type-06 div.list-bbs span.list-bbs-dday,
+body.type-06 strong.plzFinish {
+	color:#808080;
+}
+
+body.type-06 table.table,
+body.type-06 div.list-bbs,
+body.type-06 section#content dl.list-faq,
+body.type-06 div.div-info {
+	border-top-color:#b8b8b8
+}
+body.type-06 div.list-bbs {
+	border-bottom-color:#b8b8b8
+}
+body.type-06 span.text-label.notice {
+	background:#515151;
+}
+body.type-06 span.text-label.open{
+	background:#fc4c02;
+}
+body.type-06 span.text-label.ready{
+	background:#d0d0ce;
+}
+body.type-06 span.text-label.close{
+	background:#b8b8b8;
+}
+body.type-06 .period_notice,
+body.type-06 section#content .period_notice strong {
+	color:#949494
+}
+
+body.type-06 section#content dl.list-faq > dt.active > button.question-opener {
+	background:#f6f6f6;
+	border-color:#f6f6f6;
+	color:#b1b1b1;
+}
+body.type-06 section#content dl.list-faq > dd {
+	background:#f6f6f6;
+	color:#363636;
+}
+body.type-06 section#content dl.list-faq > dd > span.faq-answer::before {
+	background-image:url(images/type-06/iconQna.png);
+}
+
+body.type-06 div.step > ul > li > a {background-image:url(images/type-06/bgStep.png);}
+
+
+/*************************************************
+* 페이지 마법사
+**************************************************/
+body.type-06 .imageBox .headerRow .headerText {
+	background:#f87b36;
+}
+body.type-06 .imageBox .bodyRow dt {
+	color:#f53602;
+}
+body.type-06 .welfare h2 {
+	color:#3c3c3c;
+}
+body.type-06 .welfare h2:before {
+	border-top-color:#222;
+}
+body.type-06 .welfare .icon {
+	background-image:url(images/type-06/welfareBg.png);
+}
+body.type-06 .textList h2:before {
+	color:#898989;
+}
+body.type-06 .textList li {
+	color:#3d3d3d;
+}
+body.type-06 .rightPeople>div.wrapRightPeople {
+	background:url(images/type-06/rightPeople.png) no-repeat center top;
+}
+body.type-06 .rightPeople>div.wrapRightPeople.length-5 {
+	background-image:url(images/type-06/rightPeople-5.png);
+}
+body.type-06 .levelSystem .levelGraph>.list-1,
+body.type-06 .levelSystem .levelGraph>.list-3,
+body.type-06 .levelSystem .levelGraph>.list-5,
+body.type-06 .levelSystem .levelGraph>.list-7 {
+	background:#fac834;
+	background:rgba(250, 200, 52, 0.8);
+}
+
+body.type-06 .levelSystem .levelGraph>.list-2,
+body.type-06 .levelSystem .levelGraph>.list-4,
+body.type-06 .levelSystem .levelGraph>.list-6 {
+	background:#f78a3f;
+	background:rgba(247, 138, 63, 0.8);
+}
+
+/******************************************************************
+* 모달레이어팝업
+*******************************************************************/
+body.type-06 .appsite-modal h2.h2 {
+	background:#656565;
+}
+
+/******************************************************************
+* 폼 요소 모음
+*******************************************************************/
+body.type-06 section#content button.btn.btn-big,
+body.type-06 section#content button.btn.btn-big.btn-add,
+body.type-06 section#content button.btn.btn-big.btn-ng {
+	background-image:url(images/type-06/btnBackground.png);
+}
+body.type-06 section#content button.btn.btn-big {
+	background-position:left top;
+	border-color:#ff9400;
+}
+body.type-06 section#content button.btn.btn-big.btn-ng {
+	background-position:left -50px;
+	border-color:#97999b;
+}
+body.type-06 section#content button.btn.btn-big.btn-add {
+	background-position:left bottom;
+	border-color:#7690b5;	
+}
+body.type-06 section#content button.btn,
+body.type-06 .appsite-modal button.btn-modal {
+	background:#7690b5;
+	border-color:#7690b5;
+}
+body.type-06 section#content button.btn-ng,
+body.type-06 .appsite-modal button.btn-modal.btn-modal-ng {
+	background:#474747;
+	border-color:#474747;
+}
+body.type-06 #content label > input.radio[type="radio"]:checked + span.label::before,
+body.type-06 #content label > input.checkbox[type="checkbox"]:checked + span.label::before {
+	background:#fd7f32 !important;
+	border-color:#fd7f32 !important;
+}
+body.type-06 #content label > input.checkbox[type="checkbox"]:checked + span.label::before {
+	border-radius:2px !important;	
+}
+body.type-06 input:focus, 
+body.type-06 select:focus {
+	border-color:#6d6d6d;
+}
+body.type-06 section#content button.btn-white-green {
+	color:#fff;
+}
+
+/******************************************************************
+* 데이트피커
+*******************************************************************/
+body.type-06 .ui-widget-header {
+	background:url(images/type-06/bgCalendar.png) repeat-x 50% 50%;
+	border:none;
+}
+body.type-06 .ui-widget-content .ui-state-default {
+	background:#e5e5e5;
+	border-color:#e5e5e5;
+	color:#4d4545;
+}
+body.type-06 .ui-widget-content .ui-state-default:hover {
+	background:#ff9f00;
+	border-color:#ff9f00;
+}
+body.type-06 .ui-widget-content .ui-state-default.ui-datepicker-close {
+	background:#97999b;
+	border-color:#97999b;
+	color:#fff;
+}
+body.type-06 .ui-widget-header .ui-icon {
+	background-image:url(images/type-06/ui-icons.png);
+}
+body.type-06 .ui-widget-header .ui-state-hover .ui-icon {
+	background-image:url(images/type-06/ui-icons-hover.png);
+}
+
+body.type-06 .ui-widget-content {
+	border-color:#ddd;
+}

@@ -1,0 +1,359 @@
+/*************************************************
+* 공용 컨텐츠
+**************************************************/
+body.type-14 a.linkPrivacy {
+	color:#555
+}
+
+/*************************************************
+* 서브 컨텐츠
+**************************************************/
+body.type-14 .subMenu ul{
+	margin-bottom:0px;
+	padding-bottom:15px;
+}
+body.type-14 #content header h1 {
+	color:#6f5c53;
+}
+
+body.type-14 section h2 {
+	font-weight: 600;
+}
+
+body.type-14 #content header p.desc {
+    color:#7a7d84;
+}
+body.type-14 section h2:before {
+	border-color:#333;
+}
+body.type-14 section h3.order:before {
+	color:#333;
+}
+body.type-14 .contentList>div.levelSystem.pageWizard h3,
+body.type-14 section h3,
+body.type-14 section h3+div.list, section h3+p {
+	color:#333;
+}
+body.type-14 p.subtitle {
+	color:#333
+}
+body.type-14 section h3.order {
+	color:#333;
+}
+body.type-14 section h3.h3 {
+	color:#333;
+}
+body.type-14 section hr.basic {
+	border-color:#333;
+}
+body.type-14 ul.process>li+li:before {
+    left: -40px;
+	background:url(images/type-14/imgProcess.png) no-repeat -121px -66px;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 64px;
+    width: 37px;
+    height: 11px;
+}
+body.type-14 ul.process>li {
+    width: 121px;
+	background:url(images/type-14/imgProcess.png) no-repeat left top;
+    margin: 0px;
+    padding: 22px 0px 0px;
+    margin-right: 40px;
+}
+body.type-14 ul.process>li:last-of-type{
+}
+body.type-14 ul.process>li.process-02 {background-position:-164px top}
+body.type-14 ul.process>li.process-03 {background-position:-329px top}
+body.type-14 ul.process>li.process-04 {background-position:-493px top}
+body.type-14 ul.process>li.process-05 {background-position:-329px top}
+body.type-14 ul.process>li.process-06 {background-position:-659px top}
+
+body.type-14 div.tab {
+	border-color:#565656;
+}
+body.type-14 div.tab a.active,
+body.type-14 div.tab button.active {
+	position:relative;
+	top:1px;
+	background:#fff;
+	border-top-width:5px;
+	border-color:#434343;
+	color:#222;
+}
+
+body.type-14 div.verticalTab ul.depth1 > li > button {
+	background-image:url(images/type-14/bgVerticalTab.png);
+}
+body.type-14 div.verticalTab ul.depth1 > li > button {
+	color:#333;
+}
+body.type-14 div.verticalTab ul.depth1>li>button.active {
+	color : #fff;
+}
+
+body.type-14 div.verticalTab ul.depth1 > li:hover > button.active{
+	color : #fff;
+}
+
+
+body.type-14 div.verticalTab ul.depth2 > li > button {
+    color:#999
+}
+
+body.type-14 div.verticalTab ul.depth1 > li:hover > button,
+body.type-14 div.verticalTab ul.depth2 > li:hover > button {
+	color:#333;
+}
+body.type-14 div.verticalTab ul.depth2 > li > button.active {
+	color:#333;
+}
+body.type-14 .paging li>a.active{
+	background:#484E55;
+	border-color:#484E55;
+	color:#fff;
+}
+body.type-14 .paging li > a:hover,
+body.type-14 section#content button.btn.btn-paging:hover {
+	background:#ADADAD;
+	border-color:#ADADAD;
+	color:#fff;
+}
+body.type-14 section#content button.btn.btn-paging {
+	background:#f4f6f6;
+	border-color:#e6e6e6;
+}
+
+body.type-14 span.view-bbs-dday,
+body.type-14 span.view-bbs-date{
+	color : #486c95;
+}
+body.type-14 div.list-bbs>ul>li>div.list-bbs-number {
+	color:#a8a8a8;
+	font-size:55px;
+	font-weight:600;
+}
+
+body.type-14 div.list-bbs span.list-bbs-dday,
+body.type-14 strong.plzFinish {
+	color:#486c95;
+}
+body.type-14 strong.plzFinish {
+	font-weight: 400;
+}
+
+body.type-14 table.table,
+body.type-14 div.list-bbs,
+body.type-14 section#content dl.list-faq,
+body.type-14 div.div-info {
+	border-top-color:#b8b8b8
+}
+body.type-14 div.list-bbs {
+	border-bottom-color:#b8b8b8
+}
+body.type-14 span.text-label.notice {
+	background:#484e55;
+	color:#fff;
+}
+body.type-14 span.text-label.open{
+	background:#713437;
+	color : #fff;
+}
+body.type-14 span.text-label.ready{
+	background:#404c5a;
+	color : #fff;
+}
+body.type-14 span.text-label.close{
+	background:#969696;
+	color : #fff;
+}
+body.type-14 .period_notice,
+body.type-14 section#content .period_notice strong {
+	color:#949494
+}
+
+body.type-14 section#content dl.list-faq > dt.active > button.question-opener {
+	background:#f6f6f6;
+	border-color:#f6f6f6;
+	color:#b1b1b1;
+}
+body.type-14 section#content dl.list-faq > dd {
+	background:#f6f6f6;
+	color:#363636;
+}
+body.type-14 section#content dl.list-faq > dt > span.faq-question {
+    background-image:url(images/type-14/iconQna.png);
+}
+body.type-14 section#content dl.list-faq > dd > span.faq-answer::before {
+	background-image:url(images/type-14/iconQna.png);
+}
+
+body.type-14 div.step > ul > li > a {background-image:url(images/type-14/bgStep.png);}
+
+body.type-14 div.div-info.attention {
+	border-color : #d7d7d7;
+}
+body.type-14 div.step>ul>li>a{
+    height: 36px;
+}
+body.type-14 div.step>ul>li>a.a-step-5 {
+    background-position: 1px -321px;
+    z-index: 2;
+}
+body.type-14 div.step>ul>li>a.active.a-step-5 {
+    background-position: 1px -360px;
+    z-index: 2;
+}
+/*************************************************
+* 페이지 마법사
+**************************************************/
+body.type-14 .imageBox .headerRow .headerText {
+	background:#6f6e6e;
+}
+body.type-14 .imageBox .headerRow .textBottom{
+	color:#b3d1ec;
+}
+body.type-14 .imageBox .bodyRow dt {
+	color:#6f5c53;
+}
+body.type-14 .welfare h2 {
+	color:#6F5C53;
+}
+body.type-14 .welfare h2:before {
+	border-top-color:#6F5C53;
+}
+body.type-14 .welfare .icon {
+	background-image:url(images/type-14/welfareBg.png);
+}
+body.type-14 .textList h2:before {
+	color:#898989;
+}
+body.type-14 .textList li {
+	color:#3d3d3d;
+}
+body.type-14 .rightPeople>div.wrapRightPeople {
+	background:url(images/type-14/rightPeople.png) no-repeat center top;
+}
+body.type-14 .rightPeople>div.wrapRightPeople.length-5 {
+	background-image:url(images/type-14/rightPeople-5.png);
+}
+body.type-14 .levelSystem .levelGraph>.list-1,
+body.type-14 .levelSystem .levelGraph>.list-3,
+body.type-14 .levelSystem .levelGraph>.list-5,
+body.type-14 .levelSystem .levelGraph>.list-7 {
+	background:#6f5c53;
+	background:rgba(53, 24, 11, 0.7);;
+	border:1px solid #564339;
+	color:#fff;
+}
+
+body.type-14 .levelSystem .levelGraph>.list-2,
+body.type-14 .levelSystem .levelGraph>.list-4,
+body.type-14 .levelSystem .levelGraph>.list-6 {
+	background:#7a7d84;
+    background: rgba(46, 52, 64, 0.6);
+	color:#fff;
+	border:1px solid #564339;
+}
+
+/******************************************************************
+* 모달레이어팝업
+*******************************************************************/
+body.type-14 .appsite-modal h2.h2 {
+	background:#656565;
+}
+
+/******************************************************************
+* 폼 요소 모음
+*******************************************************************/
+body.type-14 section#content button.btn.btn-big,
+body.type-14 section#content button.btn.btn-big.btn-ng {
+	color:#fff;
+}
+body.type-14 section#content button.btn.btn-big.btn-add{
+	color :#333;
+}
+body.type-14 section#content button.btn.btn-big {
+    background:#404c5a;
+	border-color:#404c5a;
+}
+body.type-14 section#content button.btn.btn-big.btn-ng {
+	color : #333;
+    background:#fff;
+	border-color:#dcdcdc;
+}
+body.type-14 section#content button.btn.btn-big.btn-add {
+    background:#fff;
+	border-color:#dcdcdc;
+}
+body.type-14 section#content button.btn,
+body.type-14 .appsite-modal button.btn-modal {
+	background:#6F5C53;
+	border-color:#6F5C53;
+}
+body.type-14 section#content button.btn-ng,
+body.type-14 .appsite-modal button.btn-modal.btn-modal-ng {
+	background:#474747;
+	border-color:#474747;
+}
+body.type-14 #content label > input.radio[type="radio"]:checked + span.label::before,
+body.type-14 #content label > input.checkbox[type="checkbox"]:checked + span.label::before {
+	background:#404c5a !important;
+	border-color:#404c5a !important;
+	color:#fdfdfd;
+}
+body.type-14 #content label > input.checkbox[type="checkbox"]:checked + span.label::before {
+	border-radius:2px !important;	
+}
+body.type-14 input:focus, 
+body.type-14 select:focus {
+	border-color:#6d6d6d;
+}
+body.type-14 section#content button.btn-white-green {
+	color:#fff;
+}
+
+/******************************************************************
+* 데이트피커
+*******************************************************************/
+body.type-14 .ui-widget-header {
+	background:url(images/type-14/bgCalendar.png) repeat-x 50% 50%;
+	border:none;
+}
+body.type-14 .ui-widget-content .ui-state-default {
+	background:#EEF0F3;
+	border-color:#EEF0F3;
+	color:#4d4545;
+}
+body.type-14 .ui-widget-content .ui-state-default:hover {
+	background:#6F5C53;
+	border-color:#6F5C53;
+	color:#fff;
+}
+body.type-14 .ui-widget-content .ui-state-default.ui-datepicker-close {
+	background:#97999b;
+	border-color:#97999b;
+	color:#fff;
+}
+
+body.type-14 .ui-state-hover,
+body.type-14 .ui-widget-content .ui-state-hover,
+body.type-14 .ui-widget-header .ui-state-hover,
+body.type-14 .ui-state-focus,
+body.type-14 .ui-widget-content .ui-state-focus,
+body.type-14 .ui-widget-header .ui-state-focus {
+
+}
+
+body.type-14 .ui-widget-header .ui-icon {
+	background-image:url(images/type-14/ui-icons.png);
+}
+body.type-14 .ui-widget-header .ui-state-hover .ui-icon {
+	background-image:url(images/type-14/ui-icons-hover.png);
+}
+
+body.type-14 .ui-widget-content {
+	border-color:#ddd;
+}

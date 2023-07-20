@@ -1,0 +1,80 @@
+div#NoticepopUp {
+    overflow:hidden;
+    position:absolute;
+    box-sizing:border-box;
+    background:#fff;
+    border:1px solid #19283d;
+    z-index:9999;
+}
+div#NoticepopUp div#NoticepopUpclose {
+    position:absolute;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    padding-left:11px;
+    height:35px;
+    line-height:35px;
+    background:#3f4553;
+    color:#fff;
+    text-align:left;
+}
+div#NoticepopUp div#NoticepopUpclose>label {
+    position:relative;
+}
+div#NoticepopUp div#NoticepopUpclose input.checkbox[type="checkbox"] + .label::before {
+    min-width:14px;
+    height:14px;
+    font-size: 12px;
+    border-color:#fff;
+    background: #fff;
+}
+
+div#NoticepopUp div#NoticepopUpclose input.checkbox[type="checkbox"] + .label.face-lift::before {
+    background-image: url("images/dash_white_icon.svg") !important;
+    background-position: center;
+    height: 18px;
+    width: 18px;
+    background-color: white !important;
+}
+
+div#NoticepopUp.newPopup div#NoticepopUpclose input.checkbox[type="checkbox"]:checked + .label.face-lift::before {
+    background-color: #00C17C !important;
+    color: white !important;
+}
+
+div#NoticepopUp.newPopup div#NoticepopUpclose input.checkbox[type="checkbox"] + .label::before {
+    color: #6989d8;
+}
+div#NoticepopUp.oldPopup div#NoticepopUpclose input.checkbox[type="checkbox"] + .label::before {
+    color: #2cb4d4;
+}
+
+div#NoticepopUp div#NoticepopUpclose>button {
+    position:absolute;
+    top:6px;
+    right:5px;
+    width:40px;
+    height:24px;
+    line-height:24px;
+    background:#8a93a7;
+    color:#fff;
+    border:none;
+}
+div#NoticepopUp div#NoticepopUpclose>button.face-lift {
+    width: 50px;
+    background: #00C17C !important;
+    color: white;
+    border: 1px solid #00C17C !important;
+    border-radius: 5px;
+    padding: 1px;
+    float: right;
+    line-height: 0;
+}
+div#NoticepopUp div#NoticepopUpclose>button.face-lift:hover {
+    background: #3F8E61;
+    border: 1px solid #3F8E61;
+}
+div#NoticepopUp div#NoticepopUpclose>button:active {
+    top:7px;
+    right:4px;
+}

@@ -1,0 +1,26 @@
+/******************************************************
+jQuery-UI 커스텀 클래스
+*******************************************************/
+.ui-datepicker-title,
+select.ui-datepicker-month,
+select.ui-datepicker-year,
+table.ui-datepicker-calendar th {
+	font-family:"맑은 고딕",malgun gothic,"돋움",dotum,AppleGothic,sans-serif !important;
+}
+select.ui-datepicker-month,
+select.ui-datepicker-year {
+	display:inline-block !important;
+	width:60px !important;
+}
+select.ui-datepicker-month {
+	margin-left:5px !important;
+}
+table.ui-datepicker-calendar th {
+	font-weight:normal !important;
+}
+#ui-datepicker-div {
+	z-index:9000 !important;
+}
+.ui-widget-header {
+	background:#5C9CCC;
+}

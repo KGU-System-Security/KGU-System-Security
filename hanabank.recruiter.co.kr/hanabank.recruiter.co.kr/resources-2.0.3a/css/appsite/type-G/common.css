@@ -1,0 +1,377 @@
+body.sub {
+    overflow-x:hidden;
+}
+body.main #wrap {
+	overflow:hidden;
+	position:relative;
+    max-width:1920px;
+	min-width:1100px;
+}
+
+body.sub #wrap {
+    position:relative;
+    margin:0 auto;
+    width:1100px;
+}
+#content {
+	margin:0 auto;
+	width:1100px;
+}
+
+#wrap>header {
+	position:relative;
+	min-height:410px;
+}
+
+a.mainMenu{
+	cursor:pointer;
+	text-decoration:none;
+}
+.mainMenu {
+    display:block;
+    position:relative;
+    float:left;
+    box-sizing:border-box;
+    padding:30px 40px;
+    width:367px;
+    height:250px;
+    background:#fff;
+    border-top:solid 1px #dedede;
+    border-bottom:solid 1px #dedede;
+    border-right:solid 1px #dedede;
+}
+
+.mainMenu:first-child{
+    width:366px;
+    border-left:solid 1px #dedede;
+}
+#dataMainMenu {
+	position:absolute;
+	bottom:0px;
+	right:0px;
+	z-index:501;
+}
+#dataMainMenu>li {
+	position:relative;
+	display:table;
+	float:left;
+	width:160px;
+	height:60px;
+}
+#dataMainMenu>li + li:before{
+    display:block;
+    content:'';
+    width:1px;
+    height:15px;
+    background:#c7c7c7;
+    top:15px;
+    position:relative;
+    left:-2px;
+}
+#dataMainMenu>li.none + li:before{
+    content :none;
+}
+#dataMainMenu>li.none {
+	display:none;
+}
+#dataMainMenu>li>a {
+    display:table-cell;
+    padding:0 0 17px 41px;
+    color:#2d2d2d;
+    font-size:17px;
+    vertical-align:middle;
+    font-weight:500;
+}
+#dataMainMenu>li>a:hover {
+	text-decoration:none;
+}
+#dataMainMenu>li>a.active {
+	color:#333333;
+}
+#dataMainMenu>li>ul {
+	display:none;
+	position:absolute;
+	top:60px;
+	left:0px;
+	box-sizing:border-box;
+	padding:0px 25px 15px;
+	width:160px;
+	background:#fff;
+	border:1px solid #c7c7c7;
+	border-top:none;
+}
+#dataMainMenu>li>ul>li {
+	font-size:14px;
+	line-height:1.5em;
+}
+#dataMainMenu>li>ul>li+li {
+	margin-top:10px;
+}
+#dataMainMenu>li>ul>li>a {
+    color:#333;
+    font-weight:300;
+}
+#dataMainMenu>li>ul>li>a.active,
+#dataMainMenu>li>ul>li>a:hover {
+	color:#000;
+}
+
+#dataMainMenu .depth3>li>a {
+	color:#888;
+	font-size:13px;
+    font-weight:300;
+}
+#dataMainMenu .depth3>li>a:before {
+	content:'- ';
+}
+
+
+h1.logo {
+	position:absolute;
+	left:0px;
+	bottom:15px;
+	width:180px;
+	height:50px;
+}
+
+h2.mainH2 {
+	position:relative;
+	margin-bottom:38px;
+	color:#333;
+	font-size:21px;
+}
+.mainMenu p {
+  font-size:15px;
+  font-weight:300;
+  color:#666;
+}
+.mainMenu.active,
+.mainMenu:hover {
+	background-color:#f1f2f5;
+}
+
+.mainMenu>li {
+	float:left;
+}
+
+.wrapMainContent {
+	display:block;
+    box-sizing:border-box;
+	margin:0 auto;
+    padding-top:30px;
+	width:1100px;
+}
+.layoutMain {
+	min-width:1100px;
+	margin :0 auto;
+}
+.layoutMain .slider img{
+	display:block;
+    position:absolute;
+      display:block;
+    left:50%;
+    transform:translateX(-50%);
+	object-fit:contain;
+}
+.layoutMain:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.wrapMainContent>div.row>div {
+	float:left;
+	positon: relative;
+}
+.wrapMainContent>div.row+div.row .mainMenu{
+    border-top:0;
+}
+.board {
+	margin-top:22px;
+}
+
+h2.mainH2.big {
+	font-size:16px;
+}
+/* MRS-9522 header에 마우스 hover하면 움직이는 현상으로 인해 고정 */
+.gray-horizon {
+	position:absolute;
+	left: 40px;
+	top: 70px;
+	width:23px;
+	border: none;
+	border-bottom:3px solid #d8d8d8;
+}
+.sub-title {
+	position: absolute !important;
+	top: 100px;
+}
+/*h2.mainH2:after {*/
+/*	content:'';*/
+/*	position:absolute;*/
+/*	left: 40px;*/
+/*	top: 70px;*/
+/*	width:23px;*/
+/*	border-bottom:3px solid #d8d8d8;*/
+/*}*/
+h2.mainH2+p {
+	color:#333;
+}
+div.icon {
+	width:120px;
+	height:90px;
+    position:absolute;
+    bottom:0px;
+    right:0px;
+}
+
+#slider .sliderControl {
+    right:380px;
+}
+
+.board .state.state-1{
+	background :#7B90DC;
+}
+.board .state.state-2{
+	background :#62C5D6;
+}
+
+.board .state.state-3{
+	background :#C5C8CB;
+}
+.board .state:after{
+	content:none;
+}
+.board .title {
+	font-size:13px;
+	font-weight:300;
+	color:#333;
+	width:153px;
+}
+.board .date {
+	float:none;
+	font-size:13px;
+	font-weight:300;
+}
+.board li>a{
+	line-height:14px;
+}
+
+.board li>a:hover span.title{
+	text-decoration:underline;
+}
+
+footer {
+	background:#fff;
+	margin-bottom:50px;
+	margin-top:0px;
+}
+footer a {
+	color:#333;
+	font-size:13px;
+	font-weight:300;
+}
+footer a.linkPrivacy {
+    font-weight:bold;
+}
+footer a+a {
+	position:relative;
+	margin-left:31px;
+}
+
+footer a+a:before {
+	content:'';
+	position:absolute;
+	top:1px;
+	left:-16px;
+	height:13px;
+	border-left:1px solid #c7c7c7;
+}
+footer p {
+    margin-top:5px;
+    color:#81888f;
+    height:15px;
+    font-size:12px;
+    font-weight:300;
+    color:#888;
+}
+.wrapFooter,
+.wrapHeader{
+	width:1100px;
+    margin:0 auto;
+    position:relative;
+}
+.wrapHeader{
+    height:80px;
+}
+.wrapHeader:after{
+    content:'';
+    display:block;
+    clear:both;
+}
+.mainMenu div.icon{
+	bottom:10px;
+	right:10px;
+}
+
+.slider {
+	height:520px;
+}
+
+.breadcrumb {
+    display:block;
+    position:absolute;
+    top:49px;
+    right:50px;
+	color:#666;
+	font-size:15px;
+	font-weight:300;
+    line-height:1;
+    text-align:right;
+}
+
+address {
+	position:absolute;
+	top:0px;
+	right:0px;
+	margin-bototm:20px;
+    color:#333;
+	font-size:13px;
+    font-weight:300;
+    text-align:right;
+}
+
+#background {
+    position:absolute;
+    top:80px;
+    left:calc((100% - 1920px) / 2);
+    width:1920px;
+    height:300px;
+}
+
+body[data-skin] section#content { /* 로딩될 때 회색 빈 박스가 보여서 js로딩이 끝나고 body에 data-skin이 입혀지는 순간 나타나게 함 */
+    box-sizing:border-box;
+    margin-bottom:20px;
+    padding:67px 50px 30px;
+    border:1px solid #dedede;
+}
+
+section#content {
+    position:relative;
+}
+
+section#content header {
+    margin-bottom:41px;
+}
+section#content header>h1 {
+    color:#333;
+    font-size:40px;
+    font-weight:500;
+    letter-spacing:-0.5px;
+}
+section#content header>p {
+    margin-top:11px;
+    color:#333;
+    font-size:26px;
+    font-weight:300;
+    letter-spacing:-0.5px;
+}

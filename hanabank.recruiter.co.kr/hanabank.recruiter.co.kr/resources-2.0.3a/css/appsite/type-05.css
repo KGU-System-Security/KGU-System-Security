@@ -1,0 +1,286 @@
+/*************************************************
+* 공용 컨텐츠
+**************************************************/
+body.type-05 a.linkPrivacy {
+	color:#4c6ebb
+}
+
+/*************************************************
+* 서브 컨텐츠
+**************************************************/
+body.type-05 #content header h1 {
+	color:#5e62bb;
+}
+body.type-05 section h2:before {
+	border-color:#879ecf
+}
+body.type-05 section {
+	color:#505050;
+}
+body.type-05 .contentList>div.levelSystem.pageWizard h3,
+body.type-05 section h3.order:before,
+body.type-05 p.subtitle,
+body.type-05 h3 {
+	color:#1b8bc6;
+}
+body.type-05 section h3.order {
+	color:#191919
+}
+body.type-05 section h3.h3 {
+	background-image:url(images/type-05/iconH3.png);
+	color:#526bc9;
+}
+body.type-05 section hr.basic {
+	border-color:#4c6ebb;
+}
+body.type-05 ul.process>li {
+	background:url(images/type-05/imgProcess.png) no-repeat left top;
+}
+body.type-05 ul.process>li+li:before {
+	background:url(images/type-05/imgProcess.png) no-repeat right top;
+}
+body.type-05 ul.process>li.process-02 {background-position:-134px top}
+body.type-05 ul.process>li.process-03 {background-position:-268px top}
+body.type-05 ul.process>li.process-04 {background-position:-402px top}
+body.type-05 ul.process>li.process-05 {background-position:-536px top}
+body.type-05 ul.process>li.process-06 {background-position:-670px top}
+
+body.type-05 div.tab {
+	border-color:#4282d4;
+}
+body.type-05 div.tab .active {
+	background:#4282d4;
+	border-color:#4282d4;
+}
+
+body.type-05 div.verticalTab ul.depth1 > li > button {
+	background-image:url(images/type-05/bgVerticalTab.png);
+}
+body.type-05 div.verticalTab ul.depth1 > li:hover > button {
+	color:#5e62bb;
+}
+body.type-05 div.verticalTab ul.depth1 > li:hover > button.active {
+	color:#fff;
+}
+body.type-05 div.verticalTab ul.depth2 > li:hover > button,
+body.type-05 div.verticalTab ul.depth2 > li > button.active {
+	color:#5e62bb;	
+}
+
+
+body.type-05 section#content button.btn.btn-paging {
+	background:#f4f6f6;
+	border-color:#e6e6e6;
+}
+body.type-05 .paging li > a:hover,
+body.type-05 section#content button.btn.btn-paging:hover {
+	background:#7e7e7e;
+	border-color:#7e7e7e;
+	color:#fff;
+}
+body.type-05 .paging li > a.active,
+body.type-05 section#content button.btn.btn-paging.active {
+	background:#4282d4;
+	border-color:#4282d4;
+	color:#fff;
+}
+
+body.type-05 span.view-bbs-dday,
+body.type-05 div.list-bbs span.list-bbs-dday {
+	color:#5e62bb;
+}
+body.type-05 div.list-bbs span.list-bbs-date {
+	color:#707070;
+}
+body.type-05 strong.plzFinish,
+body.type-05 div.countDown {
+	color:#466cbf;
+}
+body.type-05 div.step > ul > li > a {
+	background-image:url(images/type-05/bgStep.png);
+	color:#505050;
+}
+body.type-05 div.step > ul > li > a.active {color:#fff;}
+body.type-05 #content div.photo ul {background:#d7eaf0}
+
+body.type-05 table.table,
+body.type-05 div.list-bbs,
+body.type-05 section#content dl.list-faq,
+body.type-05 div.div-info {
+	border-top-color:#6473ac
+}
+body.type-05 div.list-bbs {
+	border-bottom-color:#6473ac
+}
+body.type-05 span.text-label.notice {
+	background:#696fc1;
+}
+body.type-05 span.text-label.open{
+	background:#2690b1;
+}
+body.type-05 span.text-label.ready{
+	background:#696fc1;
+}
+body.type-05 span.text-label.close{
+	background:#7e7e7e;
+}
+body.type-05 .period_notice {
+	color:#526bc9;
+}
+body.type-05 section#content .period_notice strong {
+	color:#517796
+}
+
+body.type-05 div.list-bbs > ul > li > div.list-bbs-number {
+	color:#96a4bb;
+} 
+
+body.type-05 ul.view-bbs-file > li > a:after {
+	background-image:url(images/type-05/iconDownload.png);
+}
+body.type-05 section#content dl.list-faq > dt.active > button.question-opener {
+	background:#e8f1f7;
+	border-color:#e8f1f7;
+	color:#486b85;
+}
+body.type-05 section#content dl.list-faq > dd {
+	background:#e8f1f7;
+	color:#5e62bb;
+}
+body.type-05 section#content dl.list-faq > dd > span.faq-answer::before {
+	background-image:url(images/type-05/iconQna.png);
+}
+body.type-05 section#content table.table .required:before {
+	background-image:url(images/type-05/iconRequired.png);
+}
+body.type-05 table.table>tbody>tr>th {color:#505050;}
+
+/*************************************************
+* 페이지 마법사
+**************************************************/
+body.type-05 .imageBox .headerRow .headerText {
+	background:#1f90b3;
+}
+body.type-05 .imageBox .bodyRow dt {
+	color:#1e8bc6;
+}
+body.type-05 .welfare h2 {
+	color:#1e8bc6;
+}
+body.type-05 .welfare h2:before {
+	border-top-color:#879ecf;
+}
+body.type-05 .welfare .icon {
+	background-image:url(images/type-05/welfareBg.png);
+}
+body.type-05 .textList h2:before {
+	color:#1e8bc6;
+}
+body.type-05 .textList li {
+	color:#5371b2;
+}
+body.type-05 .rightPeople>div.wrapRightPeople {
+	background:url(images/type-05/rightPeople.png) no-repeat center top;
+}
+body.type-05 .rightPeople>div.wrapRightPeople.length-5 {
+	background-image:url(images/type-05/rightPeople-5.png);
+}
+body.type-05 .levelSystem .levelGraph>.list-1,
+body.type-05 .levelSystem .levelGraph>.list-3,
+body.type-05 .levelSystem .levelGraph>.list-5,
+body.type-05 .levelSystem .levelGraph>.list-7 {
+	background:#003c6f;
+	background:rgba(0, 60, 111, 0.8);
+}
+
+body.type-05 .levelSystem .levelGraph>.list-2,
+body.type-05 .levelSystem .levelGraph>.list-4,
+body.type-05 .levelSystem .levelGraph>.list-6 {
+	background:#283e8f;
+	background:rgba(40, 62, 143, 0.8);
+}
+
+/******************************************************************
+* 모달레이어팝업
+*******************************************************************/
+body.type-05 .appsite-modal h2.h2 {
+	background:#456fb6;
+}
+
+/******************************************************************
+* 폼 요소 모음
+*******************************************************************/
+body.type-05 section#content button.btn.btn-big,
+body.type-05 section#content button.btn.btn-big.btn-add,
+body.type-05 section#content button.btn.btn-big.btn-ng {
+	background-image:url(images/type-05/btnBackground.png);
+}
+body.type-05 section#content button.btn.btn-big {
+	background-position:left top;
+	border-color:#4b6dbb;
+}
+body.type-05 section#content button.btn.btn-big.btn-ng {
+	background-position:left -50px;
+	border-color:#6e7174;
+}
+body.type-05 section#content button.btn.btn-big.btn-add {
+	background-position:left bottom;
+	border-color:#1e8bc6;	
+}
+body.type-05 section#content button.btn,
+body.type-05 .appsite-modal button.btn-modal {
+	background:#565cae;
+	border-color:#565cae;
+}
+body.type-05 section#content button.btn-ng,
+body.type-05 .appsite-modal button.btn-modal.btn-modal-ng {
+	background:#6e7174;
+	border-color:#6e7174;
+}
+body.type-05 #content label > input.radio[type="radio"]:checked + span.label::before,
+body.type-05 #content label > input.checkbox[type="checkbox"]:checked + span.label::before {
+	background:#5ebfd3 !important;
+	border-color:#5ebfd3 !important;
+}
+body.type-05 #content label > input.checkbox[type="checkbox"]:checked + span.label::before {
+	border-radius:2px !important;	
+}
+body.type-05 input:focus, 
+body.type-05 select:focus {
+	border-color:#51bcd2;
+}
+body.type-05 section#content button.btn-white-green {
+	color:#fff;
+}
+
+/******************************************************************
+* 데이트피커
+*******************************************************************/
+body.type-05 .ui-widget-header {
+	background:url(images/type-05/bgCalendar.png) repeat-x 50% 50%;
+	border:none;
+}
+body.type-05 .ui-widget-content .ui-state-default {
+	background:#d3eef4;
+	border-color:#d3eef4;
+	color:#4d4545;
+}
+body.type-05 .ui-widget-content .ui-state-default:hover {
+	background:#85d0e0;
+	border-color:#85d0e0;
+}
+body.type-05 .ui-widget-content .ui-state-default.ui-datepicker-close {
+	background:#5275c0;
+	border-color:#5275c0 ;
+	color:#fff;
+}
+body.type-05 .ui-widget-header .ui-icon {
+	background-image:url(images/type-05/ui-icons.png);
+}
+body.type-05 .ui-widget-header .ui-state-hover .ui-icon {
+	background-image:url(images/type-05/ui-icons-hover.png);
+}
+
+body.type-05 .ui-widget-content {
+	border-color:#a6c9e2;
+}
