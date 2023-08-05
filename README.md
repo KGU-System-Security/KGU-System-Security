@@ -28,7 +28,15 @@
 ## Team_Introduction
 [![Team_Members](https://img.shields.io/badge/Team_Members-2-orange.svg?style=flat-square)](#contributors-)
 <table>
-<td align="center"><a href="https://github.com/sand-flavor-fruits"><img src="https://github.com/KGU-System-Security/KGU-System-Security/assets/118066106/b95dde94-f7bb-4795-92ca-46472b54989c" width="100px;" alt=""/><br /><sub><b>sand-flavor-fruits</b></sub></a><br /></td>
-<td align="center"><a href="https://github.com/wkc05098"><img src="https://github.com/KGU-System-Security/KGU-System-Security/assets/118066106/124c1ca3-94fa-440e-a54a-457c1e78d37e" width="100px;" alt=""/><br /><sub><b>wkc05098</b></sub></a><br /></td>
+<td align="center">
+  <a href="https://github.com/sand-flavor-fruits">
+    <img src="https://github.com/KGU-System-Security/KGU-System-Security/assets/118066106/b95dde94-f7bb-4795-92ca-46472b54989c" width="100px;" alt=""/><br>
+    <sub><b>sand-flavor-fruits</b></sub>
+  </a><br></td>
+<td align="center">
+  <a href="https://github.com/wkc05098">
+    <img src="https://github.com/KGU-System-Security/KGU-System-Security/assets/118066106/124c1ca3-94fa-440e-a54a-457c1e78d37e" width="100px;" alt=""/><br>
+    <sub><b>wkc05098</b></sub>
+  </a><br></td>
 </table>
 
